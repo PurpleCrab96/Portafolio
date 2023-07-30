@@ -1,0 +1,22 @@
+body {
+    background: url("fondo 2.jpg") no-repeat center center / cover;
+    }
+    .content {
+        text-align: center;
+    }
+    .neon-text {
+        color: #fefefe; /* Color del texto (blanco en este caso) */
+        text-shadow: 0 5px 5px rgb(0, 0, 3);
+    }
+    h1, p {
+        border: 1px solid rgb(255, 255, 255); /* Ancho del borde */
+        padding: 1px; /* Espacio entre el borde y el contenido */
+        margin: 5px; /* Margen del recuadro */
+        display: inline-block; /* Hace que el párrafo se ajuste al ancho del contenido */
+    }
+    h2, h1, h2, h6 {
+        color:#fefefe;
+    }
+    a img {
+        transform: scale(0.20); /* reducimos la imagen en un 80% */
+    }
