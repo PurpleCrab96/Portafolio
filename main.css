@@ -1,10 +1,7 @@
 body {
-    background-color: black;
+    background-color: papayawhip;
     display: flex;
     color:#ed008c
-    }
-    .content {
-        text-align: center;
     }
     .division-enlaces {
         width: 60px;
@@ -12,11 +9,18 @@ body {
         display: inline-block;
         margin-right: 10px;
     }
+    .division-titulos {
+        margin-top: 20px;
+        text-align: left;
+    }
+    .alinear-izquierda{
+        float:left;
+        margin-right: 10px;
+    }
     h1, p {
         border: 1px solid #ed008c(0, 0, 0); /* Ancho del borde */
         padding: 1px; /* Espacio entre el borde y el contenido */
         margin: 5px; /* Margen del recuadro */
-        display: inline-block; /* Hace que el párrafo se ajuste al ancho del contenido */
     }
     a img {
         border-radius: 100%;
