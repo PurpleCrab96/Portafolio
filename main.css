@@ -1,13 +1,16 @@
 body {
     background-color: black;
     display: flex;
+    color:#ed008c
     }
     .content {
         text-align: center;
     }
-    .neon-text {
-        color: #ed008c; /* Color del texto (blanco en este caso) */
-        text-shadow: 0 5px 5px rgb(0, 0, 3);
+    .division-enlaces {
+        width: 60px;
+        height: 57px;
+        display: inline-block;
+        margin-right: 10px;
     }
     h1, p {
         border: 1px solid #ed008c(0, 0, 0); /* Ancho del borde */
@@ -15,12 +18,9 @@ body {
         margin: 5px; /* Margen del recuadro */
         display: inline-block; /* Hace que el párrafo se ajuste al ancho del contenido */
     }
-    h2, h1, h2, h6 {
-        color:#ed008c;
-    }
     a img {
         border-radius: 100%;
-        opacity: 0.5;
+        height: 80px;
     }
     body {
         text-align: center;
